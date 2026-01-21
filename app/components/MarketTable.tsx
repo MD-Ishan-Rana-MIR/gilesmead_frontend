@@ -108,6 +108,7 @@ export default function MarketTable({ markets }: { markets: MarketType[] }) {
                                 onClick={() => openModal(m, "no")}
                             />
                         </div>
+                        {/* Sparkline */}
 
                         <div className="flex justify-between items-center text-xs mt-3">
                             <span
