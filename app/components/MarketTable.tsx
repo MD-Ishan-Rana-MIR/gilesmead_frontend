@@ -22,7 +22,7 @@ export default function MarketTable({ markets }: { markets: MarketType[] }) {
         <>
             {/* ================= DESKTOP / TABLET TABLE ================= */}
             <div className="hidden md:block bg-[#F6F7F9] border border-[#E5E7EB] rounded-lg overflow-x-auto">
-                <table className="w-full text-sm min-w-[900px]">
+                <table className="w-full text-sm min-w-225">
                     <thead className="bg-white border-b">
                         <tr className="text-left text-[#1F2937]">
                             <th className="p-3">Market</th>
