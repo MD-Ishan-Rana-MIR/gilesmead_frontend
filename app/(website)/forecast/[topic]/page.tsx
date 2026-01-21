@@ -21,18 +21,18 @@ export default function ForecastTopicDetails() {
         redirect("/")
     }
     return (
-        <main className="mx-auto max-w-6xl">
+        <main className="">
             {/* back buttton  */}
-            <div onClick={back} className=' w-12 h-12 border border-[#E5E7EB] rounded-full flex justify-center  items-center  cursor-pointer my-5 ' >
+            <div onClick={back} className=' w-12 h-12 border border-[#E5E7EB] rounded-full flex justify-center  items-center  cursor-pointer ' >
                 <MdOutlineKeyboardBackspace size={28} />
             </div>
             {/* Header */}
-            <header className="mb-8">
+            <header className="md:mb-8 mb-4 mt-5 ">
                 <p className="mb-2 text-sm uppercase tracking-wide text-[#1F2937]">
                     Forecast
                 </p>
                 <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-                    <h1 className="text-3xl font-semibold text-[#1F2937] md:text-4xl">
+                    <h1 className="text-lg font-semibold text-[#1F2937] md:text-4xl">
                         UK General Election Forecast
                     </h1>
 

@@ -31,7 +31,7 @@ export default function RootLayout({
 
         <div className="max-w-7xl mx-auto" >
           <Header />
-          <div className="py-6" >
+          <div className="md:py-3 px-4  " >
             {children}
           </div>
         </div>
