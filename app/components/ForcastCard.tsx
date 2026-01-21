@@ -5,7 +5,7 @@ import { ForcastDataType } from "../lib/type";
 
 const ForcastCard = ({ TOPICS }: { TOPICS: ForcastDataType[] }) => {
     return (
-        <main className="mx-auto max-w-7xl px-4 py-10">
+        <main className="mx-auto max-w-7xl py-10">
             {/* Page Header */}
             <header className="mb-10">
                 <h1 className="text-3xl font-semibold  text-[#1F2937]  md:text-4xl">
