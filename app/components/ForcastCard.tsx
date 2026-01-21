@@ -12,8 +12,9 @@ const ForcastCard = ({ TOPICS }: { TOPICS: ForcastDataType[] }) => {
                     Forecasts
                 </h1>
                 <p className="mt-2 max-w-2xl text-[#1F2937]">
-                    Editorial, topic-level forecasts providing probability-based outlooks
-                    across politics, markets, technology, and world events.
+                    {/* Editorial, topic-level forecasts providing probability-based outlooks
+                    across politics, markets, technology, and world events. */}
+                    What&apos;s likely to happen, across politics, markets, and world events ?
                 </p>
             </header>
 
