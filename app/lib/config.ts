@@ -1,0 +1,1 @@
+export const TRADING_ENABLED = true;
