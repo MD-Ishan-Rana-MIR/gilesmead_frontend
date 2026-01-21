@@ -36,7 +36,7 @@ const ForcastCard = ({ TOPICS }: { TOPICS: ForcastDataType[] }) => {
 
                         {/* Probability */}
                         <div className="mt-6 flex items-baseline gap-3">
-                            <span className="text-4xl font-bold  text-[#1F2937] ">
+                            <span className="md:text-4xl text-xl font-bold  text-[#1F2937] ">
                                 {topic.probability}
                             </span>
                             <span className="text-sm text-gray-500">
