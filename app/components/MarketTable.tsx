@@ -109,7 +109,7 @@ export default function MarketTable({ markets }: { markets: MarketType[] }) {
                             />
                         </div>
 
-                        <div className="flex justify-between text-xs mt-3">
+                        <div className="flex justify-between items-center text-xs mt-3">
                             <span
                                 className={m.change24h > 0 ? "#16A34A" : "text-[#DC2626]"}
                             >
@@ -119,6 +119,9 @@ export default function MarketTable({ markets }: { markets: MarketType[] }) {
                                 className={m.change7d > 0 ? "#16A34A" : "text-[#DC2626]"}
                             >
                                 7d: {m.change7d}%
+                            </span>
+                            <span className="p-3">
+                                <Sparkline data={m.trend7d} />
                             </span>
                         </div>
                     </div>
